@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/CSSLabo4.css">
+    <title>Labo 4</title>
+</head>
+<body>
+<h1> Labo 4</h1>
+<h3> Opdracht 1</h3>
+<p class="vet"> Wat is 'lossy compression'?</p>
+<p> Comprimeren of verkleinen van je afbeeldingen is noodzakelijk voor de prestaties
+    van je website. Bij lossy compression neem je een deel van de data/informatie
+    van je afbeelding weg. Dit verkleint de bestandsgrootte heel wat maar dit proces is onomkeerbaar.
+    Let wel op want hoe meer je wegneemt van je afbeelding hoe minder de kwaliteit.
+    Bij lossy compression maak je best een back-up bestand voor je begint.</p>
+
+<p class="vet"> Wat is 'lossless compression'?</p>
+<p> Bij lossless compression zal je de kwaliteit van de afbeelding niet verminderen.
+    Deze compressiemethode verwijdert enkel niet-essentiële gegevens. Dit zijn dan gegevens
+    zoals de automatisch-gegenereerde gegevens van het apparaat waarmee de foto is gemaakt etc.
+    Het nadeel is dat je een kleinere vermindering van de bestandsgrootte zult zien.</p>
+
+<p class="vet"> Welke soort compression gebruiken de jpeg, png en gif formaten?</p>
+<ul>
+    <li> JPEG gebruikt lossy compression, dit maakt het makkelijk om afbeeldingen te delen.
+    Dit betekent dus dat de bestandsgrootte minder is, maar de kwaliteit ook.</li>
+    <li> PNG formaten gebruiken lossless compression, er is dus geen kwaliteitsverlies.</li>
+    <li> Bij GIF formaten wordt er gebruik gemaakt van lossless compression. Opnieuw is er hier geen
+    data-/kwaliteitsverlies.</li>
+</ul>
+
+<p class="vet"> Wat zou er gebeuren als je een afbeelding herhaaldelijk bewerkt en bewaart in een lossy formaat?</p>
+<p> Hoe meer je deze afbeelding zal bewerken/opslaan, hoe slechter de kwaliteit en hoe meer dataverlies je zal lijden.</p>
+
+<h3> Opdracht 2</h3>
+<p class="vet"> De originele bestandsgrootte is 140KB.</p>
+<ul>
+    <li>Afbeelding met "Quality factor" 90
+        <p> Bij kwaliteit 90 verandert de bestandsgrootte slechts naar 138KB van 140KB, dat is -1%.
+        De kwaliteit is nauwelijks te onderscheiden van het origineel.</p>
+        <img class="fotos" src="images/kwaliteit 90.png" height="320" width="856" alt="kwaliteit 90"/>
+
+    </li>
+
+    <li>Afbeelding met "Quality factor" 70
+        <p> Wanneer ik compresseer naar kwaliteit 70 zie ik een verandering van -61% in bestandsgrootte.
+        Deze verandert van 140KB naar 55KB. Er is al wat minder detail in de foto, maar over een enorm verschil kunnen we
+        nog niet spreken.</p>
+        <img class="fotos" src="images/kwaliteit 70.png" height="320" width="856" alt="kwaliteit 70"/>
+    </li>
+
+    <li>Afbeelding met "Quality factor" 40
+        <p> Bij kwaliteit 40 vermindert de bestandsgrootte met -77%, van 140KB naar 32KB. Een enorme verandering waarbij je al heel wat minder
+        getailleerde pixels ziet. Bijvoorbeeld details in het hoofd van de platbuik is enorm vermindert vergeleken
+        met het origineel.</p>
+        <img class="fotos" src="images/kwaliteit 40.png" height="320" width="856" alt="kwaliteit 40"/>
+
+    </li>
+</ul>
+
+</body>
+</html>
