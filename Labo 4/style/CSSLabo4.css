@@ -2,6 +2,8 @@
     font-weight: bold;
 }
 
+
+
 h3 {
     font-style: italic ;
     color: crimson;
@@ -10,4 +12,5 @@ h3 {
 .fotos {
     width: 30%;
     height: 30%;
+    border-radius: 20px;
 }
