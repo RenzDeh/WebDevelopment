@@ -54,3 +54,8 @@ body {
     height: 45%;
     border-radius: 20px;
 }
+
+table {
+    max-width: 700px;
+    margin: auto;
+}
