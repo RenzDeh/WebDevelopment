@@ -1,0 +1,42 @@
+.tabel_kalender{
+    border: 3px solid;
+    border-collapse: collapse;
+}
+.tabel_kalender td{
+    border: 1px dotted;
+}
+
+.tabel_kalender thead .table_head{
+    background-color: rgb(170,170,200);
+    color: black;
+}
+
+.tabel_kalender thead .table_dagen{
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
+}
+
+.table_head{
+    text-align: center;
+}
+
+.element-underlined{
+    text-decoration: underline;
+    color: blue;
+}
+
+.vrijaf{
+    background-color: rgb(250,120,120);
+}
+
+.tabel_kalender tbody td:first-child{
+    background-color: rgb(255, 220, 220);
+}
+
+.tabel_kalender tbody td:last-child{
+    background-color: rgb(255, 220, 220);
+}
+
+.tabel_kalender tbody tr .table_new_month{
+    background-color: lightgrey;
+}

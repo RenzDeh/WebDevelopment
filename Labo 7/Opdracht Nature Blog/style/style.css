@@ -1,0 +1,46 @@
+body{
+    width: 1200px;
+    margin: auto;
+}
+
+.afbeelding{
+    background-image: url("../header.jpg");
+    color: white;
+    height: 100px;
+}
+
+.afbeelding h1{
+    padding-left: 25px;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+nav{
+    background-color: #333030;
+}
+
+nav a{
+    color: limegreen;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+article{
+    background-color: lightgrey;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+article h1{
+    font-size: 30px;
+    text-decoration: underline;
+    padding-top: 30px;
+    margin-top: 10px;
+}
+
+.copyright{
+    padding-top: 10px;
+    font-size: 10px;
+}
