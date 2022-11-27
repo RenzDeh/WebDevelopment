@@ -1,0 +1,7 @@
+.lorem{
+    width: 50%;
+    border: 1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}

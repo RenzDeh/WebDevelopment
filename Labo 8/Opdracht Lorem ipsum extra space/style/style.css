@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.lorem{
+    padding: 10px;
+    border: 1px solid;
+}
+
+.lorem-content{
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+
