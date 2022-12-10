@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: whitesmoke;
+}
+.img {
+    height: 50%;
+    width: 50%;
+    border-radius: 50px;
+}
+
+header {
+    text-align:center;
+    color: white;
+    background-color:darkblue;
+    height: 125px;
+}
+
+.borderradius{
+    border-radius: 50px;
+}
+
+section{
+    text-align: center;
+    height: 600px;
+    color: darkblue;
+    background: lightsteelblue;
+}
+
+section img{
+    width: 150px;
+    box-sizing: border-box;
+}
+
+footer{
+    background: #8D99AE;
+    text-align: center;
+}
+
+nav a{
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: lightblue;
+}
+
+section a{
+    color: blue;
+}
+
+section a:hover{
+    color: white;
+}
+
+

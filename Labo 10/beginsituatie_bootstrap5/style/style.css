@@ -1,2 +1,15 @@
+section{
+    height: 200px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 10px white solid;
+    width: 100%;
+}
+.darkgrey{
+    background: darkgrey;
+}
 
+.grey{
+    background: lightgray;
+}
 
