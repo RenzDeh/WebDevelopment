@@ -1,3 +1,10 @@
+section{
+    height: 200px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 10px white solid;
+    width: 100%;
+}
 body{
     margin: 0px;
     padding: 0px;
