@@ -1,0 +1,42 @@
+body {
+    width: 900px;
+    height: 600px;
+}
+nav {
+    width: 90%;
+    height: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    line-height: 75px;
+}
+
+nav > div > p{
+    float: left;
+    margin-right: 100px;
+    font-size: 2em;
+    line-height: 20px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+nav > ul > li {
+    margin-right: 20px;
+    float: right;
+    list-style: none;
+}
+
+nav > ul > li > a {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: ghostwhite;
+}

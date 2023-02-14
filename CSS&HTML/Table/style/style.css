@@ -1,0 +1,39 @@
+table {
+    width: 500px;
+    margin: 20px;
+
+}
+
+th {
+    text-align: center;
+    background-color: #6a478f;
+}
+
+td {
+    text-align: center;
+}
+
+table, td, th {
+    border: 1px solid #000000;
+    border-collapse: collapse; /*belangrijk voor de dubbele border als je dit weglaat*/
+}
+
+th, td {
+    padding: 10px;
+}
+
+/*tr:nth-child(odd) {
+    background: #999999;
+}*/
+
+
+
+#blue {
+    background-color: blue;
+}
+td:hover {
+    background-color: red;
+}
+
+
+
