@@ -8,9 +8,11 @@ const update = () => {
 	let sliderRed = document.getElementById("red");
 	let sliderGreen = document.getElementById("green");
 	let sliderBlue = document.getElementById("blue");
+
 	let cijferRed = document.getElementById("nrRed");
 	let cijferGreen = document.getElementById("nrGreen");
 	let cijferBlue = document.getElementById("nrBlue");
+
 	let colorDemo = document.getElementsByClassName("colorDemo");
 
 	let valueRed = sliderRed.value;
@@ -22,6 +24,7 @@ const update = () => {
 	cijferBlue.innerHTML = valueBlue;
 
 	let color = 'rgb('+valueRed+', ' + valueGreen + ', '+valueBlue+')';
+	// kan ook met `rgb(${valueRed,${valueGreen}, ${valueBlue})`
 	console.log(color);
 	colorDemo[0].style.background = color;
 }
