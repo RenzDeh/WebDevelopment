@@ -1,0 +1,44 @@
+#speelveld{
+    border: solid black;
+    margin-right: 500px;
+    width: 760px;
+    padding: 10px;
+}
+.card{
+    display: inline-block;
+    height: 252px;
+    width: 180px;
+}
+.card >div> img{
+    max-height: 80%;
+    max-width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.achterkant{
+    margin-left:auto;
+    margin-right:auto;
+}
+.voorkant{
+    margin-left:auto;
+    margin-right:auto;
+}
+.cardnr{
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+.voorkant{
+    backface-visibility:hidden ;
+}
+.achterkant{
+    backface-visibility:hidden;
+    transform: rotateY(180deg);
+}
+
+.flip{
+    transform:rotateY(180deg);
+}
+.gevonden{
+    visibility: hidden;
+}
