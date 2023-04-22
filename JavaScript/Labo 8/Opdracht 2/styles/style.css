@@ -1,0 +1,12 @@
+label {
+    margin: 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+form {
+    border: 1px solid black;
+    width: 600px;
+}
